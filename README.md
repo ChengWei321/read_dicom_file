@@ -9,16 +9,20 @@ Header stores hundreds of pieces of information including patient, machine, and 
 Image is a gray scale image slice data.
 
 ## Image processing 
+
 ### Extract data
 By extractiong the raw image captured from image in the dicom file, we can confine to the area we are interested in.
 
 ### Thresholding
 Thresholding is a method of image segmentation, converting gray scale images into binary images.
+
 By replacing each pixel in the image with black(0) or white(1) pixel using specific grayscale value.
 
 ### Create ETA
 ETA is a variable in Direct Foring Immersed Boundary method to define fluid or solid domain.
+
 ETA = 0 : fluid domain
+
 ETA = 1 : solid domain
 
 ### Assembling
