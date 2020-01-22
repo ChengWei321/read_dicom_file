@@ -1,5 +1,10 @@
 # read_dicom_file
-
+Matlab is used to carry out reading dicom files.
+```bash
+dicominfo()
+dicomread()
+```
+These two Matlab bulit-in functions and other image processing mehod are used to bulid 3D model for CFD simulations.
 ## Dicom file format
 Digital Imaging and COmmunication in Medicine is "the common language of medical equipment". Header and Image data are stored in the same file.
 ### Header
